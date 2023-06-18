@@ -1,0 +1,66 @@
+.container{
+    margin-left: 350px;
+}
+
+.header{
+    background-color: rgb(222, 235, 246);
+    width: 550px;
+    height: 150px;
+    text-align: center;
+    padding: 15px;
+}
+.header h2{
+    background-color:rgb(183, 207, 229) ;
+    width: 320px;
+    margin-left: 110px;
+}
+.main{
+    width: 600px;
+    height: 300px;
+    background-color: rgb(161, 249, 220);
+    padding-top: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.main h2{
+    background-color:rgb(183, 207, 229) ;
+    width: 320px;
+    margin-left: 110px;
+}
+.main h1{
+    color: brown;
+    width: 250px;
+    background-color: rgb(226, 201, 168);
+    font-size: 23px;
+}
+#check:hover{
+    cursor: pointer;
+    background-color: rgb(98, s170, 172);
+    font-weight: bolder;
+}
+button{
+    border: none;
+}
+.btn,input{
+    width: 120px;
+    height: 30px;
+}
+button:hover{
+    background-color: rgb(245, 213, 173);
+    cursor: pointer;
+}
+#update{
+    width: 300px;
+    margin-left: 150px;
+    background-color: rgb(227, 202, 170);
+}
+#restart{
+    display: none;
+    margin-left: 300px;
+}
+#restart:hover{
+    cursor: pointer;
+    background-color: green;
+    font-size: large;
+    text-decoration:wavy;
+}
